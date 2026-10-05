@@ -1,4 +1,4 @@
 .*
 !.gitignore
 !.python-version
-__pycache__/
+__pycache__/*.csv
