@@ -1,0 +1,20 @@
+[project]
+name = "bigdata-lab1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Valentine", email = "valentine.boury@edu.ece.fr" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "faker>=40.37.0",
+]
+
+[project.scripts]
+dataset-users = "bigdata_lab1.dataset_users:main"
+dataset-orders = "bigdata_lab1.dataset_orders:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
